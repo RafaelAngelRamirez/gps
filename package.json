@@ -13,7 +13,6 @@
     "postversion": "rm -r dist && ng build gps --prod && mkdir dist && cp -r ../../dist/gps/* dist/ ",
     "publicar": "np --contents=./dist"
   },
- 
   "module": "./dist/fesm2015/codice-progressio-gps.js",
   "es2015": "./dist/fesm2015/codice-progressio-gps.js",
   "esm2015": "./dist/esm2015/codice-progressio-gps.js",
@@ -21,10 +20,8 @@
   "typings": "./dist/codice-progressio-gps.d.ts",
   "metadata": "./dist/codice-progressio-gps.metadata.json",
   "sideEffects": false,
-
   "author": "Rafael Ramirez",
   "license": "ISC",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RafaelAngelRamirez/gps.git"
@@ -42,5 +39,5 @@
   "np": {
     "access": "public",
     "contents": "./dist"
-  },
+  }
 }
