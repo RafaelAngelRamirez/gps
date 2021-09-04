@@ -39,5 +39,7 @@
   "np": {
     "access": "public",
     "contents": "./dist"
-  }
+  },
+
+  "private":"false"
 }
