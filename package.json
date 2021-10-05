@@ -8,28 +8,22 @@
   "dependencies": {
     "tslib": "^2.3.1"
   },
+  "description": "GPS facilito",
+  "main": "karma.conf.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "postversion": "rm -r dist && ng build gps --prod && mkdir dist && cp -r ../../dist/gps/* dist/ ",
+    "postversion": "rm -r dist && ng build gps --configuration production && mkdir dist && cp -r ../../dist/gps/* dist/ ",
     "publicar": "np --contents=./dist"
   },
-  "module": "./dist/fesm2015/codice-progressio-gps.js",
-  "es2015": "./dist/fesm2015/codice-progressio-gps.js",
-  "esm2015": "./dist/esm2015/codice-progressio-gps.js",
-  "fesm2015": "./dist/fesm2015/codice-progressio-gps.js",
-  "typings": "./dist/codice-progressio-gps.d.ts",
-  "metadata": "./dist/codice-progressio-gps.metadata.json",
-  "sideEffects": false,
-  "author": "Rafael Ramirez",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RafaelAngelRamirez/gps.git"
   },
   "keywords": [
-    "online",
     "gps"
   ],
+  "author": "Rafael Ramirez",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/RafaelAngelRamirez/gps/issues"
   },
@@ -39,5 +33,12 @@
     "access": "public",
     "contents": "./dist"
   },
-  "private": "false"
+  "private": "false",
+  "module": "./dist/fesm2015/codice-progressio-gps.js",
+  "es2015": "./dist/fesm2015/codice-progressio-gps.js",
+  "esm2015": "./dist/esm2015/codice-progressio-gps.js",
+  "fesm2015": "./dist/fesm2015/codice-progressio-gps.js",
+  "typings": "./dist/codice-progressio-gps.d.ts",
+  "metadata": "./dist/codice-progressio-gps.metadata.json",
+  "sideEffects": false
 }
