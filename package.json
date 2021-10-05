@@ -28,7 +28,10 @@
     "url": "https://github.com/RafaelAngelRamirez/gps/issues"
   },
   "homepage": "https://github.com/RafaelAngelRamirez/gps#readme",
-  "publishConfig": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "np": {
     "access": "public",
     "contents": "./dist"
