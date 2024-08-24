@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "postversion": "rm -r dist && ng build gps --configuration production && mkdir dist && cp -r ../../dist/gps/* dist/ ",
-    "publicar": "np --contents=./dist"
+    "publicar": "npx np --contents=./dist"
   },
   "repository": {
     "type": "git",
